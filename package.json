@@ -1,0 +1,21 @@
+{
+	"name": "@konfirm/is-sepa",
+	"version": "0.0.0",
+	"description": "Determine whether a country is part of SEPA (Single Euro Payments Area)",
+	"main": "index.js",
+	"scripts": {
+		"test": "./node_modules/.bin/lab -vcl"
+	},
+	"keywords": [
+		"sepa"
+	],
+	"author": "Rogier Spieker <rogier+iso@konfirm.eu>",
+	"license": "MIT",
+	"devDependencies": {
+		"@konfirm/labrat": "^2.0.0",
+		"eslint": "^5.16.0",
+		"eslint-config-prettier": "^4.3.0",
+		"eslint-plugin-prettier": "^3.1.0",
+		"prettier": "^1.17.1"
+	}
+}
