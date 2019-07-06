@@ -1,6 +1,6 @@
 {
 	"name": "@konfirm/is-sepa",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Determine whether a country is part of SEPA (Single Euro Payments Area)",
 	"main": "index.js",
 	"scripts": {
