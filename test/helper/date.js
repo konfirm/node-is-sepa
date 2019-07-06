@@ -1,7 +1,4 @@
-const options = {
-	year: 'numeric',
-	month: '2-digit',
-	day: '2-digit'
-};
-
-module.exports = (date) => date.toLocaleDateString('nl', options);
+module.exports = (date) =>
+	[date.getFullYear(), date.getMonth() + 1, date.getDate()]
+		.map((value) => (value < 10 ? `0${value}`.slice(-2) : value))
+		.join('-');
